@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 20px;
+}
+
+.CHARTS {
+    display: flex;
+}
+.Side {
+    display: flex;
+    margin-right: 0;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(243 244 246);
+    border-left: solid 1px rgb(210, 210, 210);
+    box-shadow: -255px -255px 0px -255px rgba(103, 103, 103, 0.45),
+      -12px 0px 20px -20px rgba(0, 0, 0, 0.45);
+    width: 20vw;
+  }
+.button {
+    border: solid 1px rgb(197, 194, 194);
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 4px;
+}
+
+.heading {
+    font-size: 1.2rem;
+    font-weight: 800
+}
+.heading2{
+    font-size: 1rem;
+    font-weight: 800
+}
+.flex {
+    display: flex;
+}
+
+.marginIcon {
+    margin: 2px 6px;
+}
+
+.Box {
+    width: 98%;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    padding: 1px 1rem 1px 1rem;
+    flex-direction: column;
+    border: solid 1px rgb(234, 233, 233);
+}
+
+.box-content {
+    justify-content: space-between;
+    border-bottom: solid 1px #dedddd;
+    padding: 2px;
+    font-weight: 700
+}
+
+.icons{
+    flex-direction: column;
+    align-items:center ;
+    justify-content:center ;
+    position: fixed;
+    margin-left: 79vw;
+    margin-top: 33vh;
+}
+.icon{
+    height: 30px;
+    margin-top: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.circle-icon {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+  }
+  .no-border{
+    border: none;
+  }
+@media only screen and (min-width:1600px) {
+    .icons{
+        margin-left: 79.2vw;
+        margin-top: 33vh;
+    }
+  }
+  
+  @media only screen and (max-width:900px) {
+    .App {
+      flex-direction: column;
+    }
+    .Main {
+     width:100vw;
+    }
+    .Side{
+      width:100vw;
+    }
+    .icons{
+        margin-left:95vw;
+    }
+  }
+  
+  @media only screen and (max-width:720px) {
+  .CHARTS{
+    flex-direction: column;
+  }
+  .chart1{
+width: 90vw !important;
+height: 400px!important;
+  }
+  .chart2{
+    width: 90vw !important;
+    height: 600px!important;
+  }
+  }

@@ -1,0 +1,46 @@
+
+[
+    {
+      "id": 1,
+      "text": "Overall",
+      "value": "14.0%",
+      "color": "#5eafd0"
+    },
+    {
+        "id": 2,
+        "text": "Resignation Count",
+        "value": "639",
+        "color": "gray"
+      },
+      {
+        "id": 3,
+        "text": "Average Headcount",
+        "value": "4.58K",
+        "color": "gray"
+      },
+      {
+        "id": 4,
+        "text": "High Performer",
+        "value": "14.1%",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "text": "Resignation Count",
+        "value": "152",
+        "color": "gray"
+      },
+      {
+        "id": 6,
+        "text": "Average Headcount",
+        "value": "108K",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "text": "Difference",
+        "value": "-0.16 pp",
+        "color": "#49e549"
+      }
+  ]
+  
